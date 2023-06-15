@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+    font-family: 'Righteous', cursive;
+    color:white;
+}
+#i8{
+    display:flex;
+    color:white;
+    align-items:center;
+    margin:0 12px;
+    
+}
+/*#logo{
+    height:40px;
+    width:15%;
+}*/
+
+#logo img{
+    height:70px;
+    margin-left: 20px;
+    margin-right: 100px;
+    filter: invert(1);
+}
+
+
+#navbar{
+    background-color:black;
+    padding:18px 14px;
+    
+}
+
+#navbar ul{
+display:flex;
+flex-direction:row;
+justify-content:center;
+margin:auto;
+padding:2px 2px;
+align-items: center;
+
+
+}
+#navbar li a{
+text-decoration:none;
+padding:13px 30px;
+color:white;
+font-size: 1.5rem;
+
+}
+#navbar li{
+    list-style: none;
+    padding:3px 4px;
+}
+#introSection{
+height:300px;
+display:flex;
+flex-direction: column;
+background-color: blueviolet;
+background: center/cover no-repeat url("/static/d6.PNG");
+color:white;
+justify-content:center;
+align-items: center;
+font-family:  'Zilla Slab', serif;
+font-size: xx-large;
+padding-bottom: 40px;
+
+}
+#introSection div.small
+{font-size:1rem;
+    padding:5px;
+
+
+}
+#missionSection{
+height:320px;
+text-align: center;
+padding:2px 6px;
+margin-bottom:6px;
+margin-top:6px;
+
+font-family: 'Zilla Slab', serif;
+width:100%;
+margin:auto;
+display:block;
+}
+.card{
+    border:2px solid black;
+    width:22%;
+    margin:20px;
+    border-radius:20px;
+    height: 250px;
+    display:inline-block;
+    background-color: black;
+    color:white;
+}
+
+.card-content{
+    font-family: 'Zilla Slab', serif;
+}
+#sponsorSection {
+    height:300px;
+    background-color:steelblue;
+    color:black;
+    text-align: center;
+   
+}
+#sponsors
+{
+    height:120px;
+    max-width:1000px;
+    margin: auto;
+}
+.spImage{
+    height:40%;
+    margin:2px 12px;
+    padding:2px 4px;
+}
+
+#footerSection{
+    height:200px;
+    display:flex;
+    background-color:black;
+    color:white;
+    justify-content: center;
+}

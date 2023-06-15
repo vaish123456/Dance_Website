@@ -1,0 +1,53 @@
+extends base.pug 
+
+
+block scripts 
+  script(src='/static/index.js')
+
+block style
+   style
+      include ../static/style.css
+
+block content 
+    
+   
+    section#introSection 
+      div Welcome To Jeremy's Dance Academy 
+      div.small Be Passionate!! 
+
+    section#missionSection 
+      h1 Our Missions
+      .card 
+        p Expert Techniques  
+        div.card-box
+           div.card-img
+              img(src="/static/img/i12.PNG")
+           div.card-content
+              p This is the best dance academy
+
+
+
+      .card 
+        p Best Dancing Environment
+           div.card-img
+              img(src="/static/img/i9.PNG")
+           div.card-content
+              p Practice like you've never won
+      .card 
+        p WellStructured Trainings
+           div.card-img
+              img(src="/static/img/i10.PNG")
+           div.card-content
+              p Dance is the hidden language of the soul.
+     
+ 
+
+    section#sponsorSection 
+      h2 Our Sponsors
+      #sponsors 
+      img(src="/static/img/i1.PNG",alt="Sponsor Image",class="spImage")
+      img(src="/static/img/i2.PNG",alt="Sponsor Image",class="spImage")
+      img(src="/static/img/i4.PNG",alt="Sponsor Image",class="spImage")
+      
+      img(src="/static/img/i6.PNG",alt="Sponsor Image",class="spImage")
+        
